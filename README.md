@@ -6,6 +6,18 @@ This repository contains a Jupyter Notebook `imdb-review-classifier.ipynb` for p
 
 The dataset used is the IMDb movie reviews dataset. It contains 50,000 reviews labeled as positive or negative. You can find the dataset in the `imdb-reviews-data` directory. The dataset is divided evenly with 25,000 positive reviews and 25,000 negative reviews.
 
+
+## Repository Structure
+
+```
+Imdb_sentiment_analysis/
+├── imdb-review-classifier.ipynb
+├── imdb-reviews-data/
+│   └── IMDB Dataset.csv
+├── README.md
+└── LICENSE
+```
+
 ## Overview
 
 The notebook provides a step-by-step process to:
@@ -44,7 +56,7 @@ Visualizations help in better understanding the performance of the model. We use
 
 The following libraries are used in this project:
 
-```python
+```
 re
 nltk
 pandas
